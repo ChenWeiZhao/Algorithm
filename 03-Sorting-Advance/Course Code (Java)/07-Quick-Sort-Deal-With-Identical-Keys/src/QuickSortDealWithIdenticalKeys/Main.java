@@ -17,8 +17,8 @@ public class Main {
         Integer[] arr1 = QuickSortThreeWays.SortTestHelper.generateRandomArray(N, 0, N);
         Integer[] arr2 = Arrays.copyOf(arr1, arr1.length);
 
-        QuickSortThreeWays.SortTestHelper.testSort("bobo.algo.MergeSort", arr1);
-        QuickSortThreeWays.SortTestHelper.testSort("bobo.algo.QuickSort2Ways", arr2);
+        QuickSortThreeWays.SortTestHelper.testSort("QuickSortDealWithIdenticalKeys.MergeSort", arr1);
+        QuickSortThreeWays.SortTestHelper.testSort("QuickSortDealWithIdenticalKeys.QuickSort2Ways", arr2);
 
         System.out.println();
 
@@ -33,8 +33,8 @@ public class Main {
         arr1 = QuickSortThreeWays.SortTestHelper.generateNearlyOrderedArray(N, swapTimes);
         arr2 = Arrays.copyOf(arr1, arr1.length);
 
-        QuickSortThreeWays.SortTestHelper.testSort("bobo.algo.MergeSort", arr1);
-        QuickSortThreeWays.SortTestHelper.testSort("bobo.algo.QuickSort2Ways", arr2);
+        QuickSortThreeWays.SortTestHelper.testSort("QuickSortDealWithIdenticalKeys.MergeSort", arr1);
+        QuickSortThreeWays.SortTestHelper.testSort("QuickSortDealWithIdenticalKeys.QuickSort2Ways", arr2);
 
         System.out.println();
 
@@ -46,8 +46,8 @@ public class Main {
         arr1 = QuickSortThreeWays.SortTestHelper.generateRandomArray(N, 0, 10);
         arr2 = Arrays.copyOf(arr1, arr1.length);
 
-        QuickSortThreeWays.SortTestHelper.testSort("bobo.algo.MergeSort", arr1);
-        SortTestHelper.testSort("bobo.algo.QuickSort2Ways", arr2);
+        QuickSortThreeWays.SortTestHelper.testSort("QuickSortDealWithIdenticalKeys.MergeSort", arr1);
+        SortTestHelper.testSort("QuickSortDealWithIdenticalKeys.QuickSort2Ways", arr2);
 
 
         return;

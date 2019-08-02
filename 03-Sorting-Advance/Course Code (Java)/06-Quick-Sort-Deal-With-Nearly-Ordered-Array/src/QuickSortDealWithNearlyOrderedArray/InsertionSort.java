@@ -41,7 +41,7 @@ public class InsertionSort{
 
         int N = 10000;
         Integer[] arr = SortTestHelper.generateRandomArray(N, 0, 100000);
-        SortTestHelper.testSort("bobo.algo.InsertionSort", arr);
+        SortTestHelper.testSort("QuickSortDealWithNearlyOrderedArray.InsertionSort", arr);
 
         return;
     }
