@@ -50,7 +50,7 @@ public class MaxHeap<Item extends Comparable> {
 
         while( k > 1 && data[k/2].compareTo(data[k]) < 0 ){
             swap(k, k/2);
-            k /= 2;
+            k = k / 2;
         }
     }
 

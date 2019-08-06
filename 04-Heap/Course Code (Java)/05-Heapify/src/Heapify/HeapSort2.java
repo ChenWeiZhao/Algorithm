@@ -22,7 +22,7 @@ public class HeapSort2 {
 
         int N = 1000000;
         Integer[] arr = SortTestHelper.generateRandomArray(N, 0, 100000);
-        SortTestHelper.testSort("bobo.algo.HeapSort2", arr);
+        SortTestHelper.testSort("Heapify.HeapSort2", arr);
 
         return;
     }

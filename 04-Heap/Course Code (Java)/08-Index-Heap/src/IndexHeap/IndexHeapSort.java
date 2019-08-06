@@ -25,7 +25,7 @@ public class IndexHeapSort {
 
         int N = 1000000;
         Integer[] arr = SortTestHelper.generateRandomArray(N, 0, 100000);
-        SortTestHelper.testSort("bobo.algo.IndexHeapSort", arr);
+        SortTestHelper.testSort("IndexHeap.IndexHeapSort", arr);
 
         return;
     }

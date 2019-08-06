@@ -20,12 +20,12 @@ public class Main {
         Integer[] arr5 = Arrays.copyOf(arr1, arr1.length);
         Integer[] arr6 = Arrays.copyOf(arr1, arr1.length);
 
-        SortTestHelper.testSort("bobo.algo.MergeSort", arr1);
-        SortTestHelper.testSort("bobo.algo.QuickSort", arr2);
-        SortTestHelper.testSort("bobo.algo.QuickSort2Ways", arr3);
-        SortTestHelper.testSort("bobo.algo.QuickSort3Ways", arr4);
-        SortTestHelper.testSort("bobo.algo.HeapSort1", arr5);
-        SortTestHelper.testSort("bobo.algo.HeapSort2", arr6);
+        SortTestHelper.testSort("Heapify.MergeSort", arr1);
+        SortTestHelper.testSort("Heapify.QuickSort", arr2);
+        SortTestHelper.testSort("Heapify.QuickSort2Ways", arr3);
+        SortTestHelper.testSort("Heapify.QuickSort3Ways", arr4);
+        SortTestHelper.testSort("Heapify.HeapSort1", arr5);
+        SortTestHelper.testSort("Heapify.HeapSort2", arr6);
 
         System.out.println();
 
@@ -43,12 +43,12 @@ public class Main {
         arr5 = Arrays.copyOf(arr1, arr1.length);
         arr6 = Arrays.copyOf(arr1, arr1.length);
 
-        SortTestHelper.testSort("bobo.algo.MergeSort", arr1);
-        SortTestHelper.testSort("bobo.algo.QuickSort", arr2);
-        SortTestHelper.testSort("bobo.algo.QuickSort2Ways", arr3);
-        SortTestHelper.testSort("bobo.algo.QuickSort3Ways", arr4);
-        SortTestHelper.testSort("bobo.algo.HeapSort1", arr5);
-        SortTestHelper.testSort("bobo.algo.HeapSort2", arr6);
+        SortTestHelper.testSort("Heapify.MergeSort", arr1);
+        SortTestHelper.testSort("Heapify.QuickSort", arr2);
+        SortTestHelper.testSort("Heapify.QuickSort2Ways", arr3);
+        SortTestHelper.testSort("Heapify.QuickSort3Ways", arr4);
+        SortTestHelper.testSort("Heapify.HeapSort1", arr5);
+        SortTestHelper.testSort("Heapify.HeapSort2", arr6);
 
         System.out.println();
 
@@ -63,13 +63,13 @@ public class Main {
         arr5 = Arrays.copyOf(arr1, arr1.length);
         arr6 = Arrays.copyOf(arr1, arr1.length);
 
-        SortTestHelper.testSort("bobo.algo.MergeSort", arr1);
+        SortTestHelper.testSort("Heapify.MergeSort", arr1);
         // 这种情况下, 普通的QuickSort退化为O(n^2)的算法, 不做测试
-        //SortTestHelper.testSort("bobo.algo.QuickSort", arr2);
-        SortTestHelper.testSort("bobo.algo.QuickSort2Ways", arr3);
-        SortTestHelper.testSort("bobo.algo.QuickSort3Ways", arr4);
-        SortTestHelper.testSort("bobo.algo.HeapSort1", arr5);
-        SortTestHelper.testSort("bobo.algo.HeapSort2", arr6);
+        //SortTestHelper.testSort("Heapify.QuickSort", arr2);
+        SortTestHelper.testSort("Heapify.QuickSort2Ways", arr3);
+        SortTestHelper.testSort("Heapify.QuickSort3Ways", arr4);
+        SortTestHelper.testSort("Heapify.HeapSort1", arr5);
+        SortTestHelper.testSort("Heapify.HeapSort2", arr6);
 
 
         return;
